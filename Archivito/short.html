@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descripción de Producto</title>
+  <link rel="stylesheet" href="short.css">
+</head>
+<body>
+  <div class="product-description">
+    <div class="product-image">
+      <img src="short1.jpeg" alt="Producto">
+    </div>
+    <div class="product-details">
+      <h1>EZwear Shorts de rayas en contraste lado</h1>
+      <p class="price">$140.00</p>
+      <label for="size">Talla:</label>
+      <select id="size">
+        <option value="s">S</option>
+        <option value="m">M</option>
+        <option value="l">L</option>
+        <option value="xl">XL</option>
+      </select>
+      <p></p>
+      <button class="add-to-cart" onclick="redirectToCarrito()">Agregar al Carrito</button>
+      <a href="inicio.html" class="back-to-home">Volver al inicio</a>
+    </div>
+  </div>
+
+  <div class="product-description">
+    <div class="product-image">
+      <img src="short2.jpeg" alt="Producto">
+    </div>
+    <div class="product-details">
+      <h1>EZwear Shorts unicolor de cintura con cordón</h1>
+      <p class="price">$190.00</p>
+      <label for="size">Talla:</label>
+      <select id="size">
+        <option value="s">S</option>
+        <option value="m">M</option>
+        <option value="l">L</option>
+        <option value="xl">XL</option>
+      </select>
+      <p></p>
+      <button class="add-to-cart" onclick="redirectToCarrito()">Agregar al Carrito</button>
+      <a href="inicio.html" class="back-to-home">Volver al inicio</a>
+    </div>
+  </div>
+  
+  <script>
+    function redirectToCarrito() {
+      window.location.href = "carrito.html";
+    }
+  </script>
+</body>
+</html>

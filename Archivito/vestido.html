@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descripción de Producto</title>
+  <link rel="stylesheet" href="vestido.css">
+</head>
+<body>
+  <div class="product-description">
+    <div class="product-image">
+      <img src="vestido1.jpeg" alt="Producto">
+    </div>
+    <div class="product-details">
+      <h1>MOD Vestido de tirantes unicolor ribete fruncido bajo con fruncido</h1>
+      <p class="price">$280.00</p>
+      <label for="size">Talla:</label>
+      <select id="size">
+        <option value="s">S</option>
+        <option value="m">M</option>
+        <option value="l">L</option>
+        <option value="xl">XL</option>
+      </select>
+      <p></p>
+      <button class="add-to-cart" onclick="redirectToCarrito()">Agregar al Carrito</button>
+      <a href="inicio.html" class="back-to-home">Volver al inicio</a>
+    </div>
+  </div>
+
+  <div class="product-description">
+    <div class="product-image">
+      <img src="vestido2.jpeg" alt="Producto">
+    </div>
+    <div class="product-details">
+      <h1>Qutie Vestido de tirantes con estampado de guingán ribete fruncido bajo con fruncido</h1>
+      <p class="price">$200.00</p>
+      <label for="size">Talla:</label>
+      <select id="size">
+        <option value="s">S</option>
+        <option value="m">M</option>
+        <option value="l">L</option>
+        <option value="xl">XL</option>
+      </select>
+      <p></p>
+      <button class="add-to-cart" onclick="redirectToCarrito()">Agregar al Carrito</button>
+      <a href="inicio.html" class="back-to-home">Volver al inicio</a>
+    </div>
+  </div>
+  
+  <script>
+    function redirectToCarrito() {
+      window.location.href = "carrito.html";
+    }
+  </script>
+</body>
+</html>

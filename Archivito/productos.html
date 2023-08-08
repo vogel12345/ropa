@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descripción de Producto</title>
+  <link rel="stylesheet" href="producto.css">
+</head>
+<body>
+  <div class="product-description">
+    <div class="product-image">
+      <img src="crop2.jpeg" alt="Producto">
+    </div>
+    <div class="product-details">
+      <h1>Coolane Top tank edificio & con estampado de letra unido en contraste</h1>
+      <p class="price">$100.00</p>
+      <label for="size">Talla:</label>
+      <select id="size">
+        <option value="s">S</option>
+        <option value="m">M</option>
+        <option value="l">L</option>
+        <option value="xl">XL</option>
+      </select>
+      <p></p>
+      <button class="add-to-cart" onclick="redirectToCarrito()">Agregar al Carrito</button>
+      <a href="inicio.html" class="back-to-home">Volver al inicio</a>
+    </div>
+  </div>
+
+  <div class="product-description">
+    <div class="product-image">
+      <img src="crop3.jpeg" alt="Producto">
+    </div>
+    <div class="product-details">
+      <h1>LUNE Camiseta crop cinta de audio con con estampado de letra</h1>
+      <p class="price">$150.00</p>
+      <label for="size">Talla:</label>
+      <select id="size">
+        <option value="s">S</option>
+        <option value="m">M</option>
+        <option value="l">L</option>
+        <option value="xl">XL</option>
+      </select>
+      <p></p>
+      <button class="add-to-cart" onclick="redirectToCarrito()">Agregar al Carrito</button>
+      <a href="inicio.html" class="back-to-home">Volver al inicio</a>
+    </div>
+  </div>
+  
+  <script>
+    function redirectToCarrito() {
+      window.location.href = "carrito.html";
+    }
+  </script>
+</body>
+</html>
